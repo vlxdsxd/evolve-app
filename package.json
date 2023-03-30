@@ -4,7 +4,7 @@
   "homepage": "https://vlxdsxd.github.io/evolve-app",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --port 4173"
